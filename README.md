@@ -56,5 +56,3 @@ Although never is often better than **right** now. 영영 하지 않는 것이 *
 If the implementation is hard to explain, it's a bad idea. 설명하기 어려운 구현이라면 좋은 아이디어가 아니다.  
 If the implementation is easy to explain, it may be a good idea. 설명하기 쉬운 구현이라면 좋은 아이디어다.  
 Namespaces are on honking great idea -- let's do more of thos! 네임스페이스는 정말 좋은 아이디어다. 자주 사용하자!
-
-.
