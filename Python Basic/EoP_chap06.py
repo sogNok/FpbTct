@@ -5,7 +5,7 @@ Created on Fri Jul 23 15:43:59 2021
 @author: 이충섭
 """
 
-# Chapter 6 organization
+# Chapter 06 organization
 
 s1 = input('String s1: ')
 s2 = input('String s2: ')

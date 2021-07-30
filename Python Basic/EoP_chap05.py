@@ -5,7 +5,7 @@ Created on Fri Jul 23 11:46:09 2021
 @author: 이충섭
 """
 
-# Chapter 5 organization
+# Chapter 05 organization
 
 a, b = 5, 7
 c = b

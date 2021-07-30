@@ -5,7 +5,7 @@ Created on Wed Jul 21 15:17:30 2021
 @author: 이충섭
 """
 
-# Chapter 4 organization
+# Chapter 04 organization
 
 while True:
     n = int(input('Integer between 0~100: '))
