@@ -16,6 +16,7 @@ It includes the following areas:
 
 - Coding Test
   - Organize by type
+  - Daily!
 
 - Addictional Tasks
   - Math (Linear algebra, Numerical analysis, Statistics)
