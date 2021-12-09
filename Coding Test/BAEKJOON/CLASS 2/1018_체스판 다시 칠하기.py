@@ -5,7 +5,7 @@ Created on Thu Dec  9 00:00:25 2021
 @author: 이충섭
 """
 
-# 1018th, 체스판 다시 칠하기 | class 1
+# 1018th, 체스판 다시 칠하기 | class 2
 
 W = 'WBWBWBWB'
 B = 'BWBWBWBW'
