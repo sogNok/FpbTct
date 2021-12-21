@@ -34,8 +34,8 @@ for x in M:
             break
 
     sys.stdout.write('1\n' if x == A[l] else '0\n')
-    
-#%%
+
+''''''
 # 참조 
 ip = input
 def main():
