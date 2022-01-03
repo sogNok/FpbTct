@@ -39,7 +39,6 @@ sys.stdout.write('\n'.join(output))
 # 알고리즘은 같지만 더 편한 사용법
 
 import sys
-
 input = sys.stdin.read
 
 
