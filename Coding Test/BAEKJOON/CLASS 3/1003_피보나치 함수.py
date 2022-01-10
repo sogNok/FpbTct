@@ -5,22 +5,16 @@ start = time.time()
 # print('time', time.time() - start)
 
 import sys
-
 sinput = sys.stdin.readline
 sprint = sys.stdout.write
 
-N, M = map(int, sinput().split())
-input_list = sys.stdin.read().splitlines()
+for _ in range(int(sinput())):
+    N = int(sinput())
+    a,b = (0, 1) if N else (1, 0)
+    for _ in range(N-1):
+        a, b = b, a+b
+    sprint(f'{a} {b}\n')
 
-sites = dict(inputs.rstrip().split() for inputs in input_list[:N])
-questions = input_list[N:]
-
-# 다른 방식 더느림
-'''
-sites = dict(sinput().rstrip().split() for _ in range(N))
-questions = [sinput().rstrip() for _ in range(M)]
-'''
-sprint('\n'.join(sites.get(quest) for quest in questions))
 
 print('time', time.time() - start)
 
