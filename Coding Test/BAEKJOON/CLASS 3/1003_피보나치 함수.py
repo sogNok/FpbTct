@@ -19,3 +19,16 @@ for _ in range(int(sinput())):
 print('time', time.time() - start)
 
 
+# 참조 답
+# DP 사용 전 구간 탐색 및 저장 해두기
+'''
+from sys import stdin
+T = int(input())
+l = [int(stdin.readline()) for _ in range(T)]
+f = [[1, 0], [0, 1]]
+for i in range(2, max(l)+1):
+    f.append([f[i-2][0]+f[i-1][0], f[i-2][1]+f[i-1][1]])
+
+for i in l:
+    print(' '.join(map(str, f[i])))
+'''
