@@ -19,7 +19,28 @@ is_Third = False
 
 for itr in range(1, N):
     if is_Third: is_Third = False; continue
-    
+    if is_Second:
+        
+'''
+10 20 30 40 50 60
+11 00 11 11 00 11 140
+11 11 00 00 11 11 140
+11 00 11 00 11 11 150
+11 11 00 11 11 00 
+11 00 11 11 00 11
+
+1 1
+2 2
+3 2
+4 3
+5 4
+6 4
+7 5
+8 6
+9 6
+10 7
+
+'''
     
 print('time', time.time() - start)
 
