@@ -12,6 +12,8 @@ N = int(input())
 T = int(input())
 input_list = [map(int, sinput().split()) for _ in range(T)]
 
+
+'''
 infected_list = [N+1] * (N+1)
 infected_list[0] = 0
 infected_list[1] = 0
@@ -31,5 +33,7 @@ for is_true in infected_list:
         count += 1
 
 print(count)
+
+'''
 
 print('time', time.time() - start)
