@@ -44,6 +44,27 @@ for x in sq:
 
 p(4)
 '''
+
+# DP pypy만 가능
+'''
+n = int(sinput())
+dp_table = [5] * (n+1)
+
+dp_table[1] = 1
+root_n = int(n**0.5)
+
+if root_n**2 == n:
+    sprint(str(1)+'\n')
+else:
+    for i in range(2,n+1):
+        root_i = int(i**0.5)
+        if root_i**2 == i:
+            dp_table[i] = 1
+            continue
+        for j in range(1, int(i**0.5)+1):
+            dp_table[i] = min(dp_table[i], 1 + dp_table[i-j**2])
+    sprint(str(dp_table[n])+'\n')
+'''
 print('time', time.time() - start)
 
 
