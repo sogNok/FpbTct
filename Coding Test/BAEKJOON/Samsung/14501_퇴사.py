@@ -27,4 +27,27 @@ for i in range(N):
     P = 0 if N-i < T else P
     dp_table[i] = max_earn + P
 
-print(max(dp_table))            
+print(max(dp_table))
+
+# 참조답 O(n)
+'''
+n = int(input())
+T = []
+P = []
+for i in range(n):
+    Ti, Pi = map(int, input().split())
+
+    if i + Ti > n:
+        Ti = 0
+        Pi = 0
+
+    T.append(Ti)
+    P.append(Pi)
+
+dp = [0]*16
+
+for i in range(n-1, -1, -1):
+    dp[i] = max(dp[i+1], dp[i+T[i]] + P[i])
+
+print(dp[0])
+'''
